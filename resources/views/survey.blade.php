@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* Styles personnalisés pour un design sombre et moderne */
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: #1a202c; /* bg-gray-900 */

@@ -1,4 +1,4 @@
-?>
+
 @extends('layouts.admin')
 
 @section('title', 'Questionnaire - Administration')

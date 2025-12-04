@@ -18,11 +18,11 @@ class AdminAuthenticate extends Middleware
     {
         // Check if the guard is admin
         if (! $request->expectsJson()) {
-            // If the request is for admin guard, redirect to admin.login route
+
             if (in_array('admin', $this->guards)) {
                 return route('admin.login');
             }
-            // Default redirect to login route
+
             return route('login');
         }
     }
