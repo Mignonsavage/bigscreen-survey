@@ -18,8 +18,8 @@ class Authenticate extends Middleware
                 return route('admin.login');
             }
 
-            // Sinon, on garde le comportement par défaut (qui pourrait être utile plus tard).
-            return route('login');
+            // Sinon, on redirige également vers admin.login (seule auth disponible)
+            return route('admin.login');
         }
         return null;
     }
